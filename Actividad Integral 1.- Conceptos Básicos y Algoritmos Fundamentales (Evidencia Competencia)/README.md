@@ -9,6 +9,6 @@
 6. Almacene en un archivo de texto el resultado del ordenamiento.
 
 ## Análisis de complejidad: 
-En el programa utilizo las funciones de ordenaMerge, busqBinaria.
+En el programa utilizo las funciones de ordenaMerge, buscarPokemon.
 - ordenaMerge: El algoritmo recorre los pasos en subgrupos, dividiendose a su vez generando una especie de arbol, por lo que su complejidad es de O(nlog(n)) para el peor de los casos.
 - buscarPokemon: El algoritmo recorre los todos lo elementos dentro del archivo hasta encontrar el que es similar, por los que su complejidad es O(n) para el peor de los casos.
