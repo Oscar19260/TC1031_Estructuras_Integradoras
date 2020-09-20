@@ -8,6 +8,8 @@
 5. Despliegue los registros correspondientes a las entradas.
 6. Almacene en un archivo de texto el resultado del ordenamiento.
 
+El programa consiste en una "pokedex", que ordena los pokemons de acuerdo con su nombre y busca un pokemon con su nombre desplegando todos sus datos, además permite agregar nuevos pokemons con sus datos que son nombre, generación y tipo(s).
+
 ## Análisis de complejidad: 
 En el programa utilizo las funciones de ordenaMerge, buscarPokemon.
 - ordenaMerge: El algoritmo recorre los pasos en subgrupos, dividiendose a su vez generando una especie de arbol, por lo que su complejidad es de O(nlog(n)) para el peor de los casos.
