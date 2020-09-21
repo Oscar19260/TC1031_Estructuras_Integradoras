@@ -12,7 +12,7 @@ template <class T>
 bool obtenerContenido(vector<T> &vs, string archivo){
     ifstream lee(archivo);
     if(!lee){
-        cout<< "No se puede abrir el archivo: "<<archivo<<endl;
+        cout<< "No se puede abrir el archivo: "<<endl;
         return false;
     }
     string line;
@@ -25,33 +25,9 @@ bool obtenerContenido(vector<T> &vs, string archivo){
     return true;
 }
 
-// Ver pokemon ////////////////////////////////////////
-void verPokemon(ifstream &read){
-    string nom;
-    string gen;
-    string type;
-    read.open("pokedex.txt", ios::in);
-    if(read.is_open()){
-        cout<<"----------Pokemon's Registrados----------"<<endl;
-        cout<<"Numero Nombre Generacion Tipos"<<endl;
-        read>>nom;
-        while(!read.eof()){
-            read>>gen;
-            read>>type;
-            cout<<nom<<" "<<gen<<" "<<type<<endl;
-            cout<<"--------------"<<endl;
-            read>>nom;
-        }
-        read.close();
-    }
-    else{
-        cout<<"Error"<<endl;
-    }
-}
-
 // Verificar ////////////////////////////////////////
 bool verificar(string nom){
-    ifstream leer("pokedex.txt", ios::in);
+    ifstream leer("info.txt", ios::in);
     string Nom;
     string Gen;
     string Type;
@@ -74,7 +50,7 @@ void agregarP(ofstream &esc){
     string Nom;
     string Gen;
     string Type;
-    esc.open("pokedex.txt", ios::out | ios::app);
+    esc.open("info.txt", ios::out | ios::app);
     cout<<"Nombre: ";
     cin>>Nom;
     cout<<"Generacion: ";
@@ -88,7 +64,7 @@ void agregarP(ofstream &esc){
 
 // Buscar pokemon ////////////////////////////////////////
 void buscarPokemon(ifstream &read){
-    read.open("pokedex.txt", ios::in);
+    read.open("info.txt", ios::in);
     string nom, gen, type, naux;
     int band = 0;
     cout<<"Ingresa el nombre del pokemon: ";
@@ -112,13 +88,38 @@ void buscarPokemon(ifstream &read){
     }
 }
 
+// Ver pokemon ////////////////////////////////////////
+void verPokemon(ifstream &read){
+    string nom;
+    string gen;
+    string type;
+    read.open("info.txt", ios::in);
+    if(read.is_open()){
+        cout<<"----------Pokemon's Registrados----------"<<endl;
+        cout<<" Nombre Generacion Tipo(s)"<<endl;
+        read>>nom;
+        while(!read.eof()){
+            read>>gen;
+            read>>type;
+            cout<<nom<<" "<<gen<<" "<<type<<endl;
+            cout<<"--------------"<<endl;
+            read>>nom;
+        }
+        read.close();
+    }
+    else{
+        cout<<"Error"<<endl;
+    }
+}
+
+
 // Main ////////////////////////////////////////
 int main(int argc, char const *argv[]){
     vector<string> vs;
     Sorts<string> sorts;
     ofstream esc;
     ifstream read;
-    bool info = obtenerContenido(vs,"pokedex.txt");
+    bool info = obtenerContenido(vs,"info.txt");
 
     sorts.ordenaMerge(vs);
 
