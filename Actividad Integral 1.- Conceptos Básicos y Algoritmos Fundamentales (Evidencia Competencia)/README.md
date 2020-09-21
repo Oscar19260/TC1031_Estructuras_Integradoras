@@ -8,7 +8,7 @@
 5. Despliegue los registros correspondientes a las entradas.
 6. Almacene en un archivo de texto el resultado del ordenamiento.
 
-El programa consiste en una "pokedex", que ordena los pokemons de acuerdo con su nombre y busca un pokemon con su nombre desplegando todos sus datos, además permite agregar nuevos pokemons con sus datos que son nombre, generación y tipo(s).
+El programa consiste en una "pokedex", que ordena los pokemons de acuerdo con su nombre y busca un pokemon con su nombre desplegando todos sus datos, además permite agregar nuevos pokemons con datos como son su nombre, generación y tipo(s). El documento donde están los pokemons se llama info.txt y después de desplegar su ordenamiento se transcribe en un archivo llamado example.txt, para que sea más fácil ver su ordenamiento.
 
 ## Análisis de complejidad: 
 En el programa utilizo las funciones de ordenaMerge, buscarPokemon.
