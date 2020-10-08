@@ -1,6 +1,17 @@
 # Actividad Integral 2.- Estructura de datos lineales
-Registrando Listas: el programa tiene como función obtener datos como la matricula y el nombre separados por un guión, permite agregar nuevas personas, encontrar una persona, eliminar personas y limpiar totalmente la lista, guardando todo en un archivo output.txt.
+Registrando Listas: el programa tiene como función obtener datos como la matricula y el nombre separados por un guión, permite agregar nuevas personas, leer los elementos de un archivo llamado input.txt, encontrar una persona, eliminar personas y limpiar totalmente la lista, hasta que salimos del programa se crea un nuevo archivo con los datos actualizados y se guarda en output.txt, usa la libreria list.h que permite hace las operaciones necesarias para que tenga un buen funcionamiento.
 También hay un archivo llamado casos_prueba.cpp donde se puede comprobar que las funciones sirvan de manera correcta.
+
+Ejemplo de ejecución
+--------Bienvenido--------
+1.- Agregar Persona   //Si seleccionamos agregar se ingresa una nueva persona (matricula-nombre).
+2.- Mostrar lista     //Si seleccionamos mostrar se verán los elementos del archivo input.txt, además de los que se hayan agregado.
+3.- Buscar Persona    //Si seleccionamos buscar se ingresa la persona (matricula-nombre) en caso de que no se encuentre regresara un mensaje junto con un "-1".
+4.- Remover Persona   //Si seleccionamos remover se ingresa la persona (matricula-nombre) y se va a eliminar.    
+5.- Limpiar lista     //Si seleccionamos limpiar la lista se queda vacia.
+6.- Exit              //Si seleccionamos exit, se termina el programa y nuestro nuevo registro se encontrara en el archivo output.txt
+
+
 
 ## Análisis de complejidad: 
 En este programa uso las funciones principales para una lista que son:
