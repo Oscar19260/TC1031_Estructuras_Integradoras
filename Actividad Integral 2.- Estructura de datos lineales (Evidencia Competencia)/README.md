@@ -11,7 +11,7 @@ En este programa uso las funciones principales para una lista que son:
 
 ## Glosario:
  - Listas ligadas: son estructura de datos que tiene una organización lineal y se caracteriza porque cada uno de sus elementos tiene que indicar dónde se encuentra el siguente.
- - Archivos: 
+ - Archivos: es un conjunto de bytes que son almacenados en un dispositivo. Un archivo es identificado por un nombre y la descripción de la carpeta o directorio que lo contiene. 
 
 
 ### Nota: los proyectos en este repositorio no tienen relación (a menos que se mencione) y están hechos para demostrar las competecias requeridas para esta materia.
