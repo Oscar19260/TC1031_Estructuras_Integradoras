@@ -73,13 +73,3 @@ int main(){
     return 0;
 }
 
-
-/*
-    ofstream write("example.txt");
-    if(write.is_open()){
-        for (string & dato: l1){
-        write<< dato <<endl;
-        }
-        write.close();
-    }
-*/
