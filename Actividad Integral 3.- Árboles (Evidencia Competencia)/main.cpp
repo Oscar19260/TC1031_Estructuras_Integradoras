@@ -42,6 +42,7 @@ int main(){
             cin>>dato;
             tree.add(dato);
             cout<<"\tNuevo correo "<< dato << " fue agregado exitosamente\n";    
+            tree.write("output.txt");
         }
         if(opc == 2){
             cout<<tree.inorder();
@@ -64,7 +65,6 @@ int main(){
         }
 
         if(opc == 6){
-            //tree.write("output.txt");
             cout<<"Fin de la transmision"<<endl;
         }
     } while(opc != 6);

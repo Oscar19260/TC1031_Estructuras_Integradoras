@@ -24,7 +24,6 @@ class TreeNode {
 		void remove(T);
 		void removeChilds();
 		void inorder(std::stringstream&) const;		
-		void show();
 		friend class BST<T>;
 };
 
@@ -171,6 +170,7 @@ void TreeNode<T>::inorder(std::stringstream &aux) const{
 	}
 }
 
+
 // Clase BST /////////////////////////////////////////////
 template <class T>
 class BST{
@@ -275,12 +275,12 @@ template <class T>
 void BST<T>::write(std::string file){
 	std::ofstream archivo;
     archivo.open(file);
-	TreeNode<T> *p;
-    p = root;
+	TreeNode<T> *tree;
+    tree = root;
 	
-	while (p != 0) {
-        archivo<< p->value << std::endl;
-		//cout<<"\n";
+	while (tree != 0) {
+        archivo<< tree->value << std::endl;
+		//std::cout<<"\n";
 	}
     archivo.close();
 }
