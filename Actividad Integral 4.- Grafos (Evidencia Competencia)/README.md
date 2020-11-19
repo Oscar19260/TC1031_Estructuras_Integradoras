@@ -4,26 +4,26 @@ Lo que se ve en el programa es el origen y destino de un recorrido, también se 
 
 Ejemplo de funcionamiento:
 Vamos a utilizar 3 lugares:
- -EUA
- -Mexico
- -Canada
- -Brasil
- -Chile
+ - EUA
+ - Mexico
+ - Canada
+ - Brasil
+ - Chile
 
 Cada uno tiene un o más destinos por ejemplo:
- -Origen: EUA
- -Destinos: Mexico, Canada
+ - Origen: EUA
+ - Destinos: Mexico, Canada
 
- -Origen: Mexico
- -Destinos: Brasil, Chile
+ - Origen: Mexico
+ - Destinos: Brasil, Chile
 
- -Origen: Canada
- -Destinos: EUA
+ - Origen: Canada
+ - Destinos: EUA
 
 La impresión en el .txt se va a ver como:
-    +EUA -> Mexico -> Canada
-    +Mexico -> Brasil -> Chile
-    +Canada -> EUA
+    + EUA -> Mexico -> Canada
+    + Mexico -> Brasil -> Chile
+    + Canada -> EUA
 
 ## Análisis de complejidad: 
 En este programa se utilizan la siguiente funciones:
