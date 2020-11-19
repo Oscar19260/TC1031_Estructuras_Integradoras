@@ -10,23 +10,26 @@ class Edge;
 
 // Clase Vertice //////////////////////////////////////////////////////////////////////////////////////////////////
 class Vertex{
-    Vertex *next;
-    Edge *adj;
-    string name;
-    friend class Graph;
+    private:
+        Vertex *next;
+        Edge *adj;
+        string name;
+        friend class Graph;
 };
 
 // Clase Arista ///////////////////////////////////////////////////////////////////////////////////////////////////
 class Edge{
-    Edge *next;
-    Vertex *adj;
-    int cost;
-    friend class Graph;
+    private: 
+        Edge *next;
+        Vertex *adj;
+        int cost;
+        friend class Graph;
 };
 
 // Clase Graph ////////////////////////////////////////////////////////////////////////////////////////////////////
 class Graph{
-    Vertex *graph;
+    private:
+        Vertex *graph;
     public:
         void start();
         bool empty();
