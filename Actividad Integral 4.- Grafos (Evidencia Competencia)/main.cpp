@@ -8,16 +8,25 @@ using namespace std;
 int main(){
     Graph graph;
     graph.start();
-    int opc, cost;
+    int opc;
     string name;
     string origin, destiny;
-    
+
     graph.addVertex("Queretaro");
     graph.addVertex("Mexico");
     graph.addVertex("Veracruz");
     graph.addVertex("Hidalgo");
     graph.addVertex("Puebla");
     graph.addVertex("Guadalajara");
+
+    ifstream read;
+    read.open("input.txt");
+    while(read.good()){
+        string origin, destiny;
+        getline(read, origin, ' ');
+        getline(read, destiny, '\n');
+    }
+    read.close();
 
     graph.addEdge(graph.getVertex("Queretaro"), graph.getVertex("Mexico"));
     graph.addEdge(graph.getVertex("Veracruz"), graph.getVertex("Queretaro"));
