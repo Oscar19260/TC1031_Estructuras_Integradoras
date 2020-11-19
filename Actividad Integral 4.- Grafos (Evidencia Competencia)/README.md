@@ -21,9 +21,9 @@ Cada uno tiene un o más destinos por ejemplo:
  - Destinos: EUA
 
 La impresión en el .txt se va a ver como:
-    - EUA -> Mexico -> Canada
-    - Mexico -> Brasil -> Chile
-    - Canada -> EUA
+ - EUA -> Mexico -> Canada
+ - Mexico -> Brasil -> Chile
+ - Canada -> EUA
 
 ## Análisis de complejidad: 
 En este programa se utilizan la siguiente funciones:
