@@ -1,6 +1,7 @@
 # Actividad Integral 4.- Grafos (Evidencia Competencia)
 ## Viajando con grafos 
-Lo que se ve en el programa es el origen y destino de un recorrido, también se pueden agregar nuevos recorridos, en los que cada lugar representa un vertice y el recorrido de origen y destino o destinos representa un aristas, tambien nos imprime el grafo en forma de lista adyacente en un archivo llamado output.txt, también tiene un main casos de prueba en el que podemos comprobar el funcionamiento de las funciones.
+Lo que se ve en el programa es el origen y destino de un recorrido, también se pueden agregar nuevos recorridos, en los que cada lugar representa un vertice y el recorrido de origen y destino o destinos representa un aristas, tambien nos imprime el grafo en forma de lista adyacente en un archivo llamado output.txt, también tiene un main casos de prueba en el que podemos comprobar el funcionamiento de las funciones. 
+El programa despliega un menu que te permite agregar un nuevo vertice, una nueva arista, mostrar el grafo en su forma de lista de adyacencia, eliminar los vertices con el mismo valor, eliminar aristas y salir del programa, al realizar esta acción se va a plasmar el grafo en su forma de lista de adyacencia en el archivo de nombre output.txt, lo que permite interacción con el usuario.
 
 Ejemplo de funcionamiento:
 Vamos a utilizar 3 lugares:
