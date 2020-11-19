@@ -19,15 +19,15 @@ int main(){
     graph.addVertex("Puebla");
     graph.addVertex("Guadalajara");
 
-    graph.addEdge(graph.getVertex("Queretaro"), graph.getVertex("Mexico"), 300);
-    graph.addEdge(graph.getVertex("Veracruz"), graph.getVertex("Queretaro"), 500);
-    graph.addEdge(graph.getVertex("Veracruz"), graph.getVertex("Hidalgo"), 350);
-    graph.addEdge(graph.getVertex("Mexico"), graph.getVertex("Hidalgo"), 250);
-    graph.addEdge(graph.getVertex("Hidalgo"), graph.getVertex("Guadalajara"), 750);
-    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Veracruz"), 400);
-    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Mexico"), 450);
-    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Hidalgo"), 550);
-    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Guadalajara"), 800);
+    graph.addEdge(graph.getVertex("Queretaro"), graph.getVertex("Mexico"));
+    graph.addEdge(graph.getVertex("Veracruz"), graph.getVertex("Queretaro"));
+    graph.addEdge(graph.getVertex("Veracruz"), graph.getVertex("Hidalgo"));
+    graph.addEdge(graph.getVertex("Mexico"), graph.getVertex("Hidalgo"));
+    graph.addEdge(graph.getVertex("Hidalgo"), graph.getVertex("Guadalajara"));
+    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Veracruz"));
+    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Mexico"));
+    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Hidalgo"));
+    graph.addEdge(graph.getVertex("Puebla"), graph.getVertex("Guadalajara"));
 
     do{
         cout<<"1.- Ingresar lugar"<<endl;
@@ -56,13 +56,11 @@ int main(){
                     getline(cin, origin);
                     cout<<"Ingresar el nombre del lugar de destino: ";
                     getline(cin, destiny);
-                    cout<<"Ingresa el costo de traslado: ";
-                    cin>>cost;
                     if(graph.getVertex(origin) == NULL || graph.getVertex(destiny) == NULL){
                         cout<<"El lugar no es valido \n";
                     }
                     else{
-                        graph.addEdge(graph.getVertex(origin), graph.getVertex(destiny), cost);
+                        graph.addEdge(graph.getVertex(origin), graph.getVertex(destiny));
                     }
                 }
                 cout<<"\n";

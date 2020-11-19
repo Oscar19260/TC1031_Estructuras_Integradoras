@@ -31,7 +31,7 @@ class Graph{
         void start();
         bool empty();
         Vertex *getVertex(string);
-        void addEdge(Vertex*, Vertex*, int);
+        void addEdge(Vertex*, Vertex*);
         void addVertex(string);
         void AdjList();
         void deleteEdge(Vertex*, Vertex*);
@@ -82,9 +82,9 @@ void Graph::addVertex(string name){
 }
 
 // Add Edge //////////////////////////////////////////////////////////////////////////////////////////////////////
-void Graph::addEdge(Vertex *origin, Vertex* destiny, int cost){
+void Graph::addEdge(Vertex *origin, Vertex* destiny){
     Edge *newEdge = new Edge;   //Creamos un nueva arista
-    newEdge->cost = cost;       //La inicializamos
+    //La inicializamos
     newEdge->next = NULL;
     newEdge->adj = NULL;
     Edge *aux;                  //Generamos un auxiliar 
