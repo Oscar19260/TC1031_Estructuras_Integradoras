@@ -1,14 +1,7 @@
 # Actividad Integral 1.- Conceptos Básicos y Algoritmos Fundamentales
 
-## De manera individual crea una aplicación que:
-1. Lea información de un archivo de texto que tenga formato de logs o bitacora.
-2. Almacene la información en un vector.
-3. Ordene la información por un tipo de atributo de la bitácora.
-4. Permita al usuario realizar una búsqueda por rangos en las entradas.
-5. Despliegue los registros correspondientes a las entradas.
-6. Almacene en un archivo de texto el resultado del ordenamiento.
-
 El programa consiste en una "pokedex", que ordena los pokemons de acuerdo con su nombre y busca un pokemon con su nombre desplegando todos sus datos, además permite agregar nuevos pokemons con datos como son su nombre, generación y tipo(s). El documento donde están los pokemons se llama info.txt y después de desplegar su ordenamiento se transcribe en un archivo llamado example.txt, para que sea más fácil ver su ordenamiento.
+Tiene un menu con diferenctes opciones que te permite agregar un pokemon con sus atributos que son nombre, generación y tipo, ver la lista de los pokemons agregados, ordenar por nombre los pokemons de acuerdo a la tabla ascii y buscar si hay un pokemon en especifico.
 
 ## Análisis de complejidad: 
 En el programa utilizo las funciones de ordenaMerge, buscarPokemon.
