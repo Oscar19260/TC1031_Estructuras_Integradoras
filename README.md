@@ -7,3 +7,6 @@ Se van a hacer diferentes proyectos que pueden o no estar relacionados para demo
 
 ### Actividad Integral 1:
 Se agrego un main para casos de prueba y se documento de mejor manera el funcionamiento del programa.
+
+### Actividad Integral 2:
+Se documento de mejor manera el funcionamiento del programa y se corrigio para permite escribir el nombre de manera correcta.
