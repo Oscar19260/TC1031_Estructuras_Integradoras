@@ -4,7 +4,7 @@
 #include <string>
 #include "list.h"
 
-using namespace std; 
+using namespace std;
 
 // obtenerContenido ////////////////////////////////////////
 template <class T>
@@ -26,7 +26,7 @@ bool obtenerContenido(List<T> &l1, string archivo){
 
 int main(){
     List<string> l1;
-    string dato; 
+    string dato;
     bool info = obtenerContenido(l1,"input.txt");
     int opc;
     do {
@@ -39,25 +39,28 @@ int main(){
         cout<<"6.- Exit\n";
         cin>>opc;
         if(opc == 1){
-            cout<<"Introduce Matricula-Nombre: ";
-            cin>>dato;
+            cout<<"Introduce Persona: ";
+            cin.ignore();
+            getline(cin, dato);
             l1.add(dato);
-            cout<<"\tNueva persona "<< dato << " fue agregada exitosamente\n";    
+            cout<<"\tNuevo Persona "<< dato << " fue agregado exitosamente\n";    
         }
         if(opc == 2){
             l1.show();
-            cout<<"\n"; 
+            cout<<"\n";
         }
 
         if(opc == 3){
-            cout<<"Introduce Matricula-Nombre: ";
-            cin>>dato;
-            cout<<l1.find(dato); 
+            cout<<"Introduce Persona: ";
+            cin.ignore();
+            getline(cin, dato);
+            cout<<l1.find(dato)<<"\n";
         }
 
         if(opc == 4){
-            cout<<"Introduce Matricula-Nombre: ";
-            cin>>dato;
+            cout<<"Introduce Persona: ";
+            cin.ignore();
+            getline(cin, dato);
             l1.remove(dato);
         }
 
@@ -69,7 +72,6 @@ int main(){
             l1.write("output.txt");
             cout<<"Fin de la transmision"<<endl;
         }
-    } while(opc != 6); 
+    } while(opc != 6);
     return 0;
 }
-
