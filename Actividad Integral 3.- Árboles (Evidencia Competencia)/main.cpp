@@ -26,8 +26,8 @@ bool obtenerContenido(BST<T> &tree, string archivo){
 int main(){
     BST<string> tree;
     string dato;
-    bool info = obtenerContenido(tree,"input.txt");
     int opc;
+    bool info = obtenerContenido(tree,"input.txt");
     do {
         cout<<"\n--------Bienvenido--------\n";
         cout<<"1.- Agregar Correo\n";
@@ -42,7 +42,6 @@ int main(){
             cin>>dato;
             tree.add(dato);
             cout<<"\tNuevo correo "<< dato << " fue agregado exitosamente\n";    
-            tree.write("output.txt");
         }
         if(opc == 2){
             cout<<tree.inorder();
@@ -66,7 +65,15 @@ int main(){
 
         if(opc == 6){
             cout<<"Fin de la transmision"<<endl;
-        }
+            // Escribir en un archivo ////////////////////////////////////////
+            ofstream write("output.txt");
+            if(write.is_open()){
+                write<< tree.inorder();
+                write.close();
+            }
+            else
+                cout << "Unable to open file" << '\n';
+            }
     } while(opc != 6);
     return 0;
 }

@@ -6,6 +6,8 @@
 #include <fstream>
 #include <iostream>
 
+using namespace std; 
+
 template <class T> class BST;
 
 // Clase TreeNode /////////////////////////////////////////////
@@ -162,7 +164,7 @@ void TreeNode<T>::inorder(std::stringstream &aux) const{
 		left->inorder(aux);		//Imprimimos los valores de la izquierda de manera recursiva
 	}
 	if (aux.tellp() != 1) {		//Mientras pueda seguir avanzando 
-		aux << " ";
+		aux << "\n";
 	}
 	aux << value;				//Imprimimos el valor
 	if (right != 0) {			//Si la derecha no es nula
@@ -186,7 +188,6 @@ class BST{
 		void remove(T);
 		void clear();
 		std::string inorder() const;
-		void write(std::string);
 };
 
 // Constructor BST /////////////////////////////////////////////
@@ -262,7 +263,6 @@ void BST<T>::clear(){
 template <class T>
 std::string BST<T>::inorder() const{
 	std::stringstream aux;	//Converitmos los datos en string
-	aux<<"\n";
 	if (!empty()) {			//Si el árbol no esta vacio
 		root->inorder(aux);	//Imprime los datos en inorder
 	}
@@ -270,19 +270,5 @@ std::string BST<T>::inorder() const{
 	return aux.str();		//Regresa los datos en string
 }
 
-// Escribir en un archivo ////////////////////////////////////////
-template <class T>
-void BST<T>::write(std::string file){
-	std::ofstream archivo;
-    archivo.open(file);
-	TreeNode<T> *tree;
-    tree = root;
-	
-	while (tree != 0) {
-        archivo<< tree->value << std::endl;
-		//std::cout<<"\n";
-	}
-    archivo.close();
-}
-
+// Fin de la transmisión ////////////////////////////////////////
 #endif /* BST_H_ */
