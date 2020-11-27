@@ -10,3 +10,7 @@ Se agrego un main para casos de prueba y se documento de mejor manera el funcion
 
 ### Actividad Integral 2:
 Se documento de mejor manera el funcionamiento del programa y se corrigio para permite escribir el nombre de manera correcta.
+
+### Actividad Integral 3:
+Se documento de mejor manera el funcionamiento del programa y se corrigio la lectura y escritura de archivos.
+
