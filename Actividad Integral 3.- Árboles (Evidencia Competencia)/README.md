@@ -6,9 +6,9 @@ El programa tiene casos de prueba en "main_Casos_Prueba.cpp" donde se puede comp
 
 Ejemplo:
 
-       [Outlook]
+       [a01705566]
         |     |
-    [Gmail]  [Hotmail]
+    [a01705564]  [a01705567]
 
 ## Análisis de complejidad: 
 En este programa uso las funciones principales para un árbol que son:
