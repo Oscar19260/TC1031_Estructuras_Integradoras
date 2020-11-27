@@ -6,8 +6,8 @@ El programa tiene casos de prueba en "main_Casos_Prueba.cpp" donde se puede comp
 
 Ejemplo:
 
-       [a01705566]
-        |     |
+           [a01705566]
+            |      |
     [a01705564]  [a01705567]
 
 ## Análisis de complejidad: 
