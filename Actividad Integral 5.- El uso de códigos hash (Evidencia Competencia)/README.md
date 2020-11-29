@@ -1,6 +1,6 @@
 # Actividad Integral 5.- El uso de códigos hash (Evidencia Competencia)
 ### Registro de residentes
-En este proyecto se guarda en una estructura hash una serie de alumnos que tiene una matricula como llave y un nip como valor para entrar a residencias. En el programa se despliegan las funciones para agregar al registro un nuevo residente con matricula y nip (preferentemente de 4 digitos), mostrar la lista de residentes registrados, una opción que te permite obtener el nip de un estudiante (en caso de no encontrarse regresa -1) y leer un archivo input.txt para no tener que hacer el cada registro; al finalizar el programa se escribe en un archivo llamado output.txt los datos para su obtención inmediata. Se utiliza 2 archivos .h (info.h y hash.h).
+En este proyecto se guarda en una estructura hash una serie de alumnos que tiene una matricula como llave y un nip como valor para entrar a residencias con una cantidad de residentes que define el usuario. En el programa se despliegan las funciones para agregar al registro un nuevo residente con matricula y nip (preferentemente de 4 digitos), mostrar la lista de residentes registrados, una opción que te permite obtener el nip de un estudiante (en caso de no encontrarse regresa -1) y leer un archivo input.txt para no tener que hacer el cada registro; al finalizar el programa se escribe en un archivo llamado output.txt los datos para su obtención inmediata. Se utiliza 2 archivos .h (info.h y hash.h).
 Posee un main_Casos_Prueba.cpp para revisar que las funciones sirvan correctamente.
 
 ## Análisis de complejidad: 
