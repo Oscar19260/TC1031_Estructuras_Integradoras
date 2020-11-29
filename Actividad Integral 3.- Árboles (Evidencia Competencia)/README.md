@@ -20,7 +20,7 @@ En este programa uso las funciones principales para un árbol que son:
 
 
 ## Glosario:
- - BST: tipo de árboll que permite almacenar información ordenada.
+ - BST: tipo de árbol que permite almacenar información ordenada.
     + Cada nodo del árbol debe tener de 0 a 2 hijos.
     + Los descendientes izquierdos deben tener un valor menor al padre.
     + Los descendientes derechos deben tener un valor mayor al padre.
