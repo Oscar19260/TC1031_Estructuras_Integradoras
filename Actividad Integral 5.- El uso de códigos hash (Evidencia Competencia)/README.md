@@ -4,8 +4,9 @@ En este proyecto se guarda en una estructura hash una serie de alumnos que tiene
 Posee un main_Casos_Prueba.cpp para revisar que las funciones sirvan correctamente.
 
 ## Análisis de complejidad: 
-    - put (linear): función que se encarga de insertar elementos a una tabla de hash con prueba lineal, se selecciono por su facil implementación, tener el mejor performance con el caché, teniendo una complejidad para el peor y la mayoria de los casos de O(1), sin embargo en ocasiones llega a O(n).
-    - get: función que se encarga de obtiener el valor de una llave en especifico, por lo que para el peor de los casos su nivel de complejidad es O(1).
+    + put (linear): función que se encarga de insertar elementos a una tabla de hash con prueba lineal, se selecciono por su facil implementación, tener el mejor performance con el caché, teniendo una complejidad para el peor y la mayoria de los casos de O(1), sin embargo en ocasiones llega a O(n).
+    + get: función que se encarga de obtiener el valor de una llave en especifico, por lo que para el peor de los casos su nivel de complejidad es O(n).
+
 ## Glosario:
     - Tabla hash: permite el acceso de elementos almacenados a partir de una llave generada.
     - Función hash: sirve para obtener un número que identifica la posición donde la tabla hash localiza el valor deseado.
