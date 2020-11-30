@@ -7,25 +7,25 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	BST<int> bst;
+	BST<string> bst;
 	string ans;
 
-	bst.add(10);
-	ans =	"\n10\n";
+	bst.add("a01705544@itesm.mx");
+	ans =	"\na01705544@itesm.mx\n";
 	cout << " 1 " <<(!ans.compare(bst.inorder()) ? "success\n" : "fail\n");
 
-	bst.add(12);
-	bst.add(8);
-	bst.add(110);
-	bst.add(112);
-	bst.add(18);
+	bst.add("a01705690@itesm.mx");
+	bst.add("a01706443@itesm.mx");
+	bst.add("a01706543@itesm.mx");
+	bst.add("dedehoh809@gmail.com");
+	bst.add("coxonot273@outlook.com");
 
-	ans = "\n8\n10\n12\n18\n110\n112\n";
+	ans = "\na01705544@itesm.mx\na01705690@itesm.mx\na01706443@itesm.mx\na01706543@itesm.mx\ncoxonot273@outlook.com\ndedehoh809@gmail.com\n";
 	cout << " 2 " <<(!ans.compare(bst.inorder()) ? "success\n" : "fail\n");
 
-    bst.remove(18);
-    ans = "\n8\n10\n12\n110\n112\n";
+    bst.remove("coxonot273@outlook.com");
+    ans = "\na01705544@itesm.mx\na01705690@itesm.mx\na01706443@itesm.mx\na01706543@itesm.mx\ndedehoh809@gmail.com\n";
 	cout << " 3 " <<(!ans.compare(bst.inorder()) ? "success\n" : "fail\n");
-	cout << " 4 " <<(0 == bst.find(13) ? "success\n" : "fail\n");
-    cout << " 5 " <<(1 == bst.find(10) ? "success\n" : "fail\n");
+	cout << " 4 " <<(0 == bst.find("semeha7191@gmail.com") ? "success\n" : "fail\n");
+    cout << " 5 " <<(1 == bst.find("a01705544@itesm.mx") ? "success\n" : "fail\n");
 }
