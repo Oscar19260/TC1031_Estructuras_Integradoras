@@ -12,10 +12,10 @@ Ejemplo:
 
 ## Análisis de complejidad: 
 En este programa uso las funciones principales para un árbol que son:
- - Add: es una función que añade un correo moviendose a través de un árbol desde su raíz hasta el lugar el que pertenezca, es una función muy comun en los árboles de busqueda binarios; por lo que para el peor de los casos es O(n).
+ - Add: es una función que añade un correo moviendose a través de un árbol desde su raíz hasta el lugar el que pertenezca, es una función muy comun en los árboles de busqueda binarios; por lo que para el peor de los casos es llega a ser O(n).
  - Inorder: es una función que se encarga de imprimir los datos que tengamos en un archivo de texto o los que vayan añadiendo; por lo que para el peor de los casos su complejidad es O(n).
- - Find: esta función se encarga de moverse por el árbol, por lo que determina si se encuentra o no un dato devolviendo un 1 si se encontro o un 0 en el caso contrario; por lo que para el peor de los casos es O(n).
- - Remove: esta función se encarga de eliminar un elemento en concreto por lo que debe dirigirse a ese nodo, eliminarlo y recolocar el árbol; por lo que su nivel de complejidad en el peor de los casos es O(n).
+ - Find: esta función se encarga de moverse por el árbol, por lo que determina si se encuentra o no un dato devolviendo un 1 si se encontro o un 0 en el caso contrario; por lo que para el peor de los casos llega a ser O(n).
+ - Remove: esta función se encarga de eliminar un elemento en concreto por lo que debe dirigirse a ese nodo, eliminarlo y recolocar el árbol; por lo que su nivel de complejidad en el peor de los casos puede alcanzar un O(n).
  - Clear: esta funcion elimina todo el árbol e igualar su raíz a nulo, por lo que para el peor de los casos su nivel de complejidad es O(n).
 
 
