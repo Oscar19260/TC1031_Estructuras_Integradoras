@@ -1,33 +1,26 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 #include "bst.h"
 
 using namespace std;
 
-// obtenerContenido ////////////////////////////////////////
-template <class T>
-bool obtenerContenido(BST<T> &tree, string archivo){
-    ifstream read(archivo);
-    if(!read){
-        cout<<"Error no se pudo abrir el archivo: "<<archivo<<endl;
-        return false;
-    }
-    string dato;
-    while (getline(read, dato)){
-        if(dato.size() > 0){
-            tree.add(dato);
-		}
-    }
-    read.close();
-    return true;
-}
-
 int main(){
     BST<string> tree;
     string dato;
+    string line;
+    string correo;
     int opc;
-    bool info = obtenerContenido(tree,"input.txt");
+
+    ifstream read("input.txt");
+    if(read.is_open()){
+        while(read>>correo){
+        tree.add(correo);
+        }
+    }
+    read.close();
+    
     do {
         cout<<"\n--------Bienvenido--------\n";
         cout<<"1.- Agregar Correo\n";
@@ -41,7 +34,7 @@ int main(){
             cout<<"Introduce correo: ";
             cin>>dato;
             tree.add(dato);
-            cout<<"\tNuevo correo "<< dato << " fue agregado exitosamente\n";    
+            cout<<"\tNuevo correo "<<dato<< " fue agregado exitosamente\n";    
         }
         if(opc == 2){
             cout<<tree.inorder();
@@ -51,6 +44,7 @@ int main(){
             cout<<"Introduce correo: ";
             cin>>dato;
             cout<<tree.find(dato);
+            cout<<"\n";
         }
 
         if(opc == 4){
