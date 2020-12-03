@@ -14,5 +14,4 @@ Se documento de mejor manera el funcionamiento del programa y se corrigio para p
 ### Actividad Integral 3:
 Se documento de mejor manera el funcionamiento del programa y se corrigio la lectura y escritura de archivos.
 
-### Revisiones:
 
