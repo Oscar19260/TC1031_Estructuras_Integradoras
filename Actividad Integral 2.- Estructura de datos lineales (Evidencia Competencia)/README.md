@@ -24,5 +24,7 @@ En este programa uso las funciones principales para una lista que son:
  - Listas ligadas: son estructura de datos que tiene una organización lineal y se caracteriza porque cada uno de sus elementos tiene que indicar dónde se encuentra el siguente.
  - Archivos: es un conjunto de bytes que son almacenados en un dispositivo. Un archivo es identificado por un nombre y la descripción de la carpeta o directorio que lo contiene. 
 
+## Referencias: 
+ - GeeksforGeeks. (2020). Linked List Data Structure. Retrieved 3 December 2020, from https://www.geeksforgeeks.org/data-structures/linked-list/
 
 ### Nota: los proyectos en este repositorio no tienen relación (a menos que se mencione) y están hechos para demostrar las competecias requeridas para esta materia.
