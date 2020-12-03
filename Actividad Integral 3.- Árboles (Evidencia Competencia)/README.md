@@ -24,5 +24,9 @@ En este programa uso las funciones principales para un árbol que son:
     + Cada nodo del árbol debe tener de 0 a 2 hijos.
     + Los descendientes izquierdos deben tener un valor menor al padre.
     + Los descendientes derechos deben tener un valor mayor al padre.
+    
+## Referencias
+ - GeeksforGeeks. (2020). Binary Search Tree. Retrieved 3 December 2020, from https://www.geeksforgeeks.org/binary-search-tree-data-structure/
+ - Lcm. (2020). 4.4 Binary Search Tree. Retrieved 3 December 2020, from https://cutt.ly/GhvzBrk
 
 ### Nota: los proyectos en este repositorio no tienen relación (a menos que se mencione) y están hechos para demostrar las competecias requeridas para esta materia.
