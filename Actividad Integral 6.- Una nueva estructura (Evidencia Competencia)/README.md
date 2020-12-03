@@ -24,4 +24,4 @@ Para realizar este algoritmo se utilizaron las funciones:
  - Caso 5: los datos estan desordenados de la siguente manera [3, 1, 2] por lo que hay que hacer 2 flips [2, 1, 3] y después a [1, 2, 3].
  - Caso 6: para el último caso es [1, 3, 2] por lo que se deben hacer 3 cambios [3, 1, 2] depués [2, 1, 3] y finalmente [1, 2, 3].
  
- ![alt tag]()
+ ![alt tag](Actividad Integral 6.- Una nueva estructura (Evidencia Competencia)/Pancake_sort_operation.png)
