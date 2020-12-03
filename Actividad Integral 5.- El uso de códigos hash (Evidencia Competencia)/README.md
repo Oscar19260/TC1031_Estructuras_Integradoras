@@ -11,4 +11,8 @@ Posee un main_Casos_Prueba.cpp para revisar que las funciones sirvan correctamen
     - Tabla hash: permite el acceso de elementos almacenados a partir de una llave generada.
     - Función hash: sirve para obtener un número que identifica la posición donde la tabla hash localiza el valor deseado.
 
+## Referencias:
+ - GeeksforGeeks. (2020). Convert an array to reduced form | Set 1 (Simple and Hashing). Retrieved 3 December 2020, from https://www.geeksforgeeks.org/convert-an-array-to-reduced-form-set-1-simple-and-hashing/?ref=rp
+ - Jscrambler Code. (2020). Hashing Algorithms | Jscrambler Blog. Retrieved 3 December 2020, from https://blog.jscrambler.com/hashing-algorithms/
+
 ### Nota: los proyectos en este repositorio no tienen relación (a menos que se mencione) y están hechos para demostrar las competecias requeridas para esta materia.
