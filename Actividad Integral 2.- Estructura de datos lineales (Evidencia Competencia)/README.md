@@ -2,7 +2,7 @@
 Registrando Listas: el programa tiene como función obtener datos como la matricula y el nombre separados por un guión, permite agregar nuevas personas, leer los elementos de un archivo llamado input.txt, encontrar una persona, eliminar personas y limpiar totalmente la lista, hasta que salimos del programa se crea un nuevo archivo con los datos actualizados y se guarda en output.txt, usa la libreria list.h que permite hace las operaciones necesarias para que tenga un buen funcionamiento.
 También hay un archivo llamado casos_prueba.cpp donde se puede comprobar que las funciones sirvan de manera correcta.
 
-## Ejemplo de ejecución
+### Ejemplo de ejecución
 --------Bienvenido--------
 - Agregar Persona   //Si seleccionamos agregar se ingresa una nueva persona (matricula-nombre).
 - Mostrar lista     //Si seleccionamos mostrar se verán los elementos del archivo input.txt, además de los que se hayan agregado.
