@@ -1,9 +1,0 @@
-Queretaro Mexico
-Veracruz Queretaro
-Veracruz Hidalgo
-Mexico Hidalgo
-Hidalgo Guadalajara
-Puebla Veracruz
-Puebla Mexico
-Puebla Hidalgo
-Puebla Guadalajara
