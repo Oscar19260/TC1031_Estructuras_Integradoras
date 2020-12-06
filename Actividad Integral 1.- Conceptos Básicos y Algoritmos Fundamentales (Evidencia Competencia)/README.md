@@ -14,12 +14,5 @@ Los algoritmos de ordenamiento son el tipo de algoritmo que pone elementos de un
 ## Referencias: 
  - GeeksforGeeks. (2020). Merge Sort. Retrieved 3 December 2020, from https://www.geeksforgeeks.org/merge-sort/
  - EcuRed. (2020). MergeSort. Retrieved 3 December 2020, from https://www.ecured.cu/MergeSort
-
- _____      _            _           
- |  __ \    | |          | |          
- | |__) |__ | | _____  __| | _____  __
- |  ___/ _ \| |/ / _ \/ _` |/ _ \ \/ /
- | |  | (_) |   <  __/ (_| |  __/>  < 
- |_|   \___/|_|\_\___|\__,_|\___/_/\_\
-                                      
-                                      
+ 
+ 
