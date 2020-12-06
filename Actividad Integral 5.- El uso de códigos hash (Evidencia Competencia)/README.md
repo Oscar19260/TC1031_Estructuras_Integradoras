@@ -11,7 +11,7 @@ Posee un main_Casos_Prueba.cpp para revisar que las funciones sirvan correctamen
     - Tabla hash: permite el acceso de elementos almacenados a partir de una llave generada.
     - Función hash: sirve para obtener un número que identifica la posición donde la tabla hash localiza el valor deseado.
  
- Tabla de Hash
+ Tabla de Hash ejemplo: 
 [0 empty: 0]
 [1 empty: 0]
 [2 empty: 0]
