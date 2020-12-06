@@ -23,7 +23,7 @@ Los algoritmos de ordenamiento son el tipo de algoritmo que pone elementos de un
                                                      \    \ `.__,'|  |`-._    `|      |__| \/ |  `.__,'|  | |   |
                                                       \_.-'       |__|    `-._ |              '-.|     '-.| |   |
                                                                               `'                            '-._|
-                                                                                                                     /
+                                                                                                                     
                                                                             _,.------....___,.' ',.-.
                                                                          ,-'          _,.--"        |
                                                                        ,'         _.-'              .
