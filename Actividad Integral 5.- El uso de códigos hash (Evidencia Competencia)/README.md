@@ -10,6 +10,18 @@ Posee un main_Casos_Prueba.cpp para revisar que las funciones sirvan correctamen
 ## Glosario:
     - Tabla hash: permite el acceso de elementos almacenados a partir de una llave generada.
     - Función hash: sirve para obtener un número que identifica la posición donde la tabla hash localiza el valor deseado.
+ 
+ Tabla de Hash
+[0 empty: 0]
+[1 empty: 0]
+[2 empty: 0]
+[3 empty: 0]
+[4 empty: 0]
+[5 empty: 0]
+[6 empty: 0]
+[7 empty: 0]
+[8 empty: 0]
+
 
 ## Referencias:
  - GeeksforGeeks. (2020). Convert an array to reduced form | Set 1 (Simple and Hashing). Retrieved 3 December 2020, from https://www.geeksforgeeks.org/convert-an-array-to-reduced-form-set-1-simple-and-hashing/?ref=rp
