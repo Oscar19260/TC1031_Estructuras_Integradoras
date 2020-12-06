@@ -11,18 +11,46 @@ En el programa utilizo las funciones de ordenaMerge, buscarPokemon.
 ## Investigación:
 Los algoritmos de ordenamiento son el tipo de algoritmo que pone elementos de una lista o un vector en una secuencia dada por una relación de orden, es decir, el resultado de salida ha de ser una permutación o reordenamiento de la entrada que satisfaga la relación de orden dada. Existen muchos tipos de algoritmos de ordenamiento en este caso se utiliza el merge sort que tiene una complejidad de O(nlog(n)) divide el vector de entrada en dos mitades, se llama a sí misma para las dos mitades y, a continuación, combina las dos mitades ordenadas.
 
-                                          ,'\
-            _.----.        ____         ,'  _\   ___    ___     ____
-        _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
-        \      __    \    '-.  | /   `.  ___    |    \/    |   '-.   \ |  |
-         \.    \ \   |  __  |  |/    ,','_  `.  |          | __  |    \|  |
-           \    \/   /,' _`.|      ,' / / / /   |          ,' _`.|     |  |
-            \     ,-'/  /   \    ,'   | \/ / ,`.|         /  /   \  |     |
-             \    \ |   \_/  |   `-.  \    `'  /|  |    ||   \_/  | |\    |
-              \    \ \      /       `-.`.___,-' |  |\  /| \      /  | |   |
-               \    \ `.__,'|  |`-._    `|      |__| \/ |  `.__,'|  | |   |
-                \_.-'       |__|    `-._ |              '-.|     '-.| |   |
-                                        `'                            '-._|
+                                                                                ,'\
+                                                  _.----.        ____         ,'  _\   ___    ___     ____
+                                              _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
+                                              \      __    \    '-.  | /   `.  ___    |    \/    |   '-.   \ |  |
+                                               \.    \ \   |  __  |  |/    ,','_  `.  |          | __  |    \|  |
+                                                 \    \/   /,' _`.|      ,' / / / /   |          ,' _`.|     |  |
+                                                  \     ,-'/  /   \    ,'   | \/ / ,`.|         /  /   \  |     |
+                                                   \    \ |   \_/  |   `-.  \    `'  /|  |    ||   \_/  | |\    |
+                                                    \    \ \      /       `-.`.___,-' |  |\  /| \      /  | |   |
+                                                     \    \ `.__,'|  |`-._    `|      |__| \/ |  `.__,'|  | |   |
+                                                      \_.-'       |__|    `-._ |              '-.|     '-.| |   |
+                                                                              `'                            '-._|
+                                                                                                                     /
+                                                                            _,.------....___,.' ',.-.
+                                                                         ,-'          _,.--"        |
+                                                                       ,'         _.-'              .
+                                                                      /   ,     ,'                   `
+                                                                     .   /     /                     ``.
+                                                                     |  |     .                       \.\
+                                                           ____      |___._.  |       __               \ `.
+                                                         .'    `---""       ``"-.--"'`  \               .  \
+                                                        .  ,            __               `              |   .
+                                                        `,'         ,-"'  .               \             |    L
+                                                       ,'          '    _.'                -._          /    |
+                                                      ,`-.    ,".   `--'                      >.      ,'     |
+                                                     . .'\'   `-'       __    ,  ,-.         /  `.__.-      ,'
+                                                     ||:, .           ,'  ;  /  / \ `        `.    .      .'/
+                                                     j|:D  \          `--'  ' ,'_  . .         `.__, \   , /
+                                                    / L:_  |                 .  "' :_;                `.'.'
+                                                    .    ""'                  """""'                    V
+                                                     `.                                 .    `.   _,..  `
+                                                       `,_   .    .                _,-'/    .. `,'   __  `
+                                                        ) \`._        ___....----"'  ,'   .'  \ |   '  \  .
+                                                       /   `. "`-.--"'         _,' ,'     `---' |    `./  |
+                                                      .   _  `""'--.._____..--"   ,             '         |
+                                                      | ." `. `-.                /-.           /          ,
+                                                      | `._.'    `,_            ;  /         ,'          .
+                                                     .'          /| `-.        . ,'         ,           ,
+                                                     '-.__ __ _,','    '`-..___;-...__   ,.'\ ____.___.'
+                                                     `"^--'..'   '-`-^-'"--    `-^-'`.''"""""`.,^.`.--' mh
 
 ## Referencias: 
  - GeeksforGeeks. (2020). Merge Sort. Retrieved 3 December 2020, from https://www.geeksforgeeks.org/merge-sort/
